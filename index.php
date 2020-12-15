@@ -1,4 +1,13 @@
-<?php  ?>
+<?php
+
+$matches = [
+    "home" => [],
+    "away" => [],
+    "pointsHome" => [],
+    "pointsAway" => []
+];
+
+?>
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -9,9 +18,13 @@
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
-        <title></title>
+        <title>PHP snack 1</title>
     </head>
     <body>
+        <h1 class="text-center text-capitalize mt-2 mb-4">prossimi incontri</h1>
+
+        <p class="mt-3"> </p>
+
 
     </body>
 </html>
