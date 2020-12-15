@@ -41,9 +41,12 @@ $matches = [
         <title>PHP snack 1</title>
     </head>
     <body>
-        <h1 class="text-center text-capitalize mt-2 mb-4">partite disputate</h1>
+        <div class="container">
+            <h1 class="text-center text-capitalize mt-2 mb-4">partite disputate</h1>
 
-        <p class="mt-3"> <?php echo $matches["home"]["team2"]; ?> </p>
+            <p class="mt-3"> <?php echo $matches["home"]["team1"] ."-". $matches["away"]["team1"] ."  risultato :   ". $matches["pointsHome"]["team1"] . " - " . $matches["pointsAway"]["team1"]; ?>  </p>
+
+        </div>
 
 
     </body>
