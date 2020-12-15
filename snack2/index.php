@@ -1,7 +1,9 @@
 <?php
-$name = ;
-$age = ;
-$mail = ;
+
+$name = $_GET["name"];
+$age = $_GET["age"];
+$mail = $_GET["mail"];
+
 ?>
 
 <!DOCTYPE html>
