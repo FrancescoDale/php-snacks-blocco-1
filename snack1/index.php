@@ -47,7 +47,7 @@ $matches = [
             <p>
                 <?php
                     for ($i=0; $i < count($matches); $i++) {
-                        echo ($matches[$i]["home"] . $matches[$i]["away"]);
+                        echo ($matches[$i]["home"] . "--" . $matches[$i]["away"] . "" . $matches[$i]["pointsHome"] . "--" . $matches[$i]["pointsAway"]);
                     }
                 ?>
 
