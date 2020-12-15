@@ -1,5 +1,7 @@
 <?php
-
+$name = ;
+$age = ;
+$mail = ;
 ?>
 
 <!DOCTYPE html>
