@@ -1,10 +1,30 @@
 <?php
 
 $matches = [
-    "home" => [],
-    "away" => [],
-    "pointsHome" => [],
-    "pointsAway" => []
+    "home" => [
+        "team1" => "NB Aquilano",
+        "team2" => "Vasto basket",
+        "team3" => "Unibasket Lanciano",
+        "team4" => "UBS Foligno"
+    ],
+    "away" => [
+        "team1" => "Robur Falconara",
+        "team2" => "Virtus Assisi",
+        "team3" => "Pallacanestro Pescara",
+        "team4" => "BB Pesaro"
+    ],
+    "pointsHome" => [
+        "team1" => "4",
+        "team2" => "8",
+        "team3" => "12",
+        "team4" => "16"
+    ],
+    "pointsAway" => [
+        "team1" => "2",
+        "team2" => "4",
+        "team3" => "6",
+        "team4" => "8"
+    ],
 ];
 
 ?>
