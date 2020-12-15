@@ -1,29 +1,29 @@
 <?php
 
 $matches = [
-    "home" => [
-        "team1" => "NB Aquilano",
-        "team2" => "Vasto basket",
-        "team3" => "Unibasket Lanciano",
-        "team4" => "UBS Foligno"
+    [
+        "home" => "NB Aquilano",
+        "away" => "Robur Falconara",
+        "pointsHome" => "2",
+        "pointsAway" => "1",
     ],
-    "away" => [
-        "team1" => "Robur Falconara",
-        "team2" => "Virtus Assisi",
-        "team3" => "Pallacanestro Pescara",
-        "team4" => "BB Pesaro"
+    [
+        "home" => "Basket Lanciano",
+        "away" => "GS L'Aquila",
+        "pointsHome" => "3",
+        "pointsAway" => "2",
     ],
-    "pointsHome" => [
-        "team1" => "4",
-        "team2" => "8",
-        "team3" => "12",
-        "team4" => "16"
+    [
+        "home" => "Virtus Assisi",
+        "away" => "UBS Foligno",
+        "pointsHome" => "4",
+        "pointsAway" => "3",
     ],
-    "pointsAway" => [
-        "team1" => "2",
-        "team2" => "4",
-        "team3" => "6",
-        "team4" => "8"
+    [
+        "home" => "Vasto Basket",
+        "away" => "Pescara Basket",
+        "pointsHome" => "5",
+        "pointsAway" => "4",
     ],
 ];
 
@@ -45,11 +45,14 @@ $matches = [
             <h1 class="text-center text-capitalize mt-2 mb-4">partite disputate</h1>
 
             <p>
-            <?php for ($i=0; $i < count($matches); $i++) {
-                // code...
-            }
-             ?>
+                <?php
+                    for ($i=0; $i < count($matches); $i++) {
+                        echo ($matches[$i]["home"] . $matches[$i]["away"]);
+                    }
+                ?>
+
             </p>
+
 
             <!-- <p class="mt-3"> <?php echo $matches["home"]["team1"] ." - ". $matches["away"]["team1"] ."  risultato :   ". $matches["pointsHome"]["team1"] . " - " . $matches["pointsAway"]["team1"]; ?>  </p>
 
