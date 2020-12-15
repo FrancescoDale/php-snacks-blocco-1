@@ -22,7 +22,7 @@ $mail = $_GET["mail"];
             <h1 class="text-center text-capitalize mt-2 mb-4">status accesso : </h1>
 
             <p class="text-capitalize text-center">
-                <?php if (strlen($name) > 3 && strpos($mail, '@') && strpos($mail, '.')) {
+                <?php if (strlen($name) > 3 && strpos($mail, '@') && strpos($mail, '.') && is_numeric($age)) {
                     echo "accesso riuscito";
                 } else {
                     echo "accesso negato";
