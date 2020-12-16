@@ -47,20 +47,12 @@ $matches = [
             <p>
                 <?php
                     for ($i=0; $i < count($matches); $i++) {
-                        echo ($matches[$i]["home"] . "--" . $matches[$i]["away"] . "" . $matches[$i]["pointsHome"] . "--" . $matches[$i]["pointsAway"]);
+                        echo ($matches[$i]["home"] . " | " . $matches[$i]["away"] . " | " . $matches[$i]["pointsHome"] . " -- " . $matches[$i]["pointsAway"]);
+                        echo "<br>";
                     }
                 ?>
 
             </p>
-
-
-            <!-- <p class="mt-3"> <?php echo $matches["home"]["team1"] ." - ". $matches["away"]["team1"] ."  risultato :   ". $matches["pointsHome"]["team1"] . " - " . $matches["pointsAway"]["team1"]; ?>  </p>
-
-            <p class="mt-3"> <?php echo $matches["home"]["team2"] ." - ". $matches["away"]["team2"] ."  risultato :   ". $matches["pointsHome"]["team2"] . " - " . $matches["pointsAway"]["team2"]; ?>  </p>
-
-            <p class="mt-3"> <?php echo $matches["home"]["team3"] ." - ". $matches["away"]["team3"] ."  risultato :   ". $matches["pointsHome"]["team3"] . " - " . $matches["pointsAway"]["team3"]; ?>  </p>
-
-            <p class="mt-3"> <?php echo $matches["home"]["team4"] ." - ". $matches["away"]["team4"] ."  risultato :   ". $matches["pointsHome"]["team4"] . " - " . $matches["pointsAway"]["team4"]; ?>  </p> -->
 
         </div>
 
